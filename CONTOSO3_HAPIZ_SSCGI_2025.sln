@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONTOSO3_HAPIZ_SSCGI_2025", "CONTOSO3_HAPIZ_SSCGI_2025\CONTOSO3_HAPIZ_SSCGI_2025.csproj", "{4BFA8BB8-A7D9-4B62-9E2B-134A804F5796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BFA8BB8-A7D9-4B62-9E2B-134A804F5796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFA8BB8-A7D9-4B62-9E2B-134A804F5796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFA8BB8-A7D9-4B62-9E2B-134A804F5796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFA8BB8-A7D9-4B62-9E2B-134A804F5796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98E249B6-090A-4307-8316-6F1373525BB7}
+	EndGlobalSection
+EndGlobal
