@@ -1,4 +1,6 @@
-﻿namespace CONTOSO3_HAPIZ_SSCGI_2025.Models
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+
+namespace CONTOSO3_HAPIZ_SSCGI_2025.Models
 {
     public class Student
     {
@@ -7,6 +9,7 @@
         public string FirstMidName { get; set; }
         public DateTime EnrollmentDate { get; set; }
 
+        [ValidateNever]
         public ICollection<Enrollment> Enrollments { get; set; }
 
     }
