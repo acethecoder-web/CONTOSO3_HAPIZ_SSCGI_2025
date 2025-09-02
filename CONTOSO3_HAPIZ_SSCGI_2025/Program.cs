@@ -32,7 +32,6 @@ namespace CONTOSO3_HAPIZ_SSCGI_2025
             app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
-
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
