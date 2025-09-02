@@ -194,6 +194,21 @@ namespace CONTOSO3_HAPIZ_SSCGI_2025.Controllers
             }
         }
 
+         public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var student = await _context.Students.FindAsync(id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+            return View(student);
+        }
+
         private bool StudentExists(int id)
         {
             return _context.Students.Any(e => e.ID == id);
